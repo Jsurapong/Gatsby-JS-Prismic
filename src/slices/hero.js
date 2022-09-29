@@ -3,6 +3,8 @@ import { PrismicRichText } from "@prismicio/react"
 import { HeroWrapper } from "./hero.styles"
 
 export const Hero = props => {
+  console.log("Hero: ", props)
+
   return (
     <HeroWrapper image={props.slice.primary.background_image.gatsbyImageData}>
       <PrismicRichText field={props.slice.primary.title.richText} />

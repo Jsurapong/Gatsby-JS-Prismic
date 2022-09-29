@@ -50,6 +50,20 @@ export const query = graphql`
               }
             }
           }
+          ... on PrismicHomepageDataBodyPricingOptions {
+            id
+            slice_type
+            items {
+              amount_per_month
+              is_most_popular
+              price_option_description {
+                richText
+              }
+              price_option_title {
+                richText
+              }
+            }
+          }
         }
       }
     }
