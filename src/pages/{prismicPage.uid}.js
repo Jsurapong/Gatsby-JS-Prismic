@@ -41,6 +41,15 @@ export const query = graphql`
               placeholder
             }
           }
+          ... on PrismicPageDataBodyRichText {
+            id
+            slice_type
+            primary {
+              rich_text_content {
+                richText
+              }
+            }
+          }
         }
 
         page_title {

@@ -23,6 +23,7 @@ const Header = ({ siteTitle }) => {
   return (
     <HeaderStyle>
       <Menu>
+        <Link to={`/`}>Home</Link>
         {result.prismicNavigiation.data.menu_items.map(item => (
           <Link to={`/${item.destination_page.uid}`} key={item.label}>
             {item.label}
