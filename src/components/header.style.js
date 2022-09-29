@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Header = styled.header`
-  background: black;
+  background: white;
   display: flex;
   padding: 0 20px;
 `
@@ -13,7 +13,6 @@ export const Menu = styled.div`
   margin-left: auto;
   a {
     padding: 0 10px;
-    color: white;
     &:hover {
       color: orange;
     }

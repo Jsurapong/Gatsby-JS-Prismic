@@ -8,4 +8,6 @@ export const HeroWrapper = styled(BgImage)`
   justify-content: center;
   flex-direction: column;
   color: white;
+  display: flex;
+  align-items: center;
 `
